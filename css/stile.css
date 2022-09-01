@@ -1,0 +1,44 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Fredoka One', cursive;
+}
+main{
+    width:85%;
+    margin:0 auto;
+}
+/* formattazione testo */
+ .centro{
+    text-align: center;
+}
+
+span.centro{
+    display: inline-block;
+    margin-right: 6rem;
+    margin-left:5rem;
+}
+h1.colorato{
+    color:#F36758;
+}
+/* dimensionamento colonne */
+
+.row{
+    background-color: yellow;
+}
+.colum{
+    width:calc((100% / 3) - 10px);
+    height:300px;
+    background-color: red;
+    border:1px solid black;
+    float:left;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
