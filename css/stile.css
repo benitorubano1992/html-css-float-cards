@@ -57,7 +57,9 @@ h1.colorato{
     float:left;
     padding-right: 0.65rem;
 }
-
+.colum p{
+    color:aqua
+}
 .colum span{
     display: inline-block;
 }
