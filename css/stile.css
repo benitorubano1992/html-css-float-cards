@@ -10,6 +10,7 @@ html{
 main{
     width:95%;
     margin:0 auto;
+    margin-top: 2rem;
 }
 /* formattazione testo */
  .centro{
@@ -23,6 +24,7 @@ span.centro{
 }
 h1.colorato{
    color:rgb(241,94,130);
+    margin-bottom: 1.5rem;
 }
 
 
